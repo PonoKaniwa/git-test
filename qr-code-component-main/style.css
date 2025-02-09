@@ -1,0 +1,50 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%); /* Light slate background for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for the entire page */
+}
+
+/* Main container */
+.qr-container {
+    background-color: white; /* White background for the container */
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Set max-width for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling the QR code image */
+.qr-image {
+    width: 100%;
+    max-width: 200px; /* Max width to scale the QR code */
+    margin-bottom: 20px;
+}
+
+/* Text content styling */
+.text-content h1 {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%); /* Slate 900 */
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%); /* Slate 500 */
+}
